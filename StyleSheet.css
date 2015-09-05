@@ -1,0 +1,346 @@
+﻿body {
+	font-size: 80%;
+	line-height: 1.3em;
+	text-align: center;
+	background: #ffffff;
+	font-family: Verdana, Trebuchet MS, arial, sans-serif;
+	text-decoration: none;
+	color: #663300;
+	margin: auto;
+	padding: 0;
+}
+
+#bigwrapper {
+    text-align: left;
+    margin: auto;
+    padding-top: 20px;
+    width: 960px;
+}
+
+/**************************** <start> TOPMENU FRA CSS-TRICKS.COM **************************/
+.tabrow {
+		text-align: center;
+		list-style: none;
+		margin: 20px 0 0px;
+		padding: 0;
+		line-height: 24px;
+		height: 26px;
+		overflow: hidden;
+		font-size: 18px;
+		font-family: calibri, verdana;
+		font-weight:bold;
+		position: relative;
+	}
+	.tabrow li {
+		border: 1px solid #AAA;
+		background: #D1D1D1;
+		background: -o-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+		background: -ms-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+		background: -moz-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+		background: -webkit-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+		background: linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+		display: inline-block;
+		position: relative;
+		z-index: 0;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 #FFF;
+		text-shadow: 0 1px #FFF;
+		margin: 0 -5px;
+	}
+	.tabrow a {
+		padding: 0 20px;
+	}
+	.tabrow li a {
+	    text-decoration: none;
+	    color: #777;
+	}
+	.tabrow li a:hover {
+	    background: none;
+	    color: #000;
+	}
+	.tabrow li.selected {
+		background: #FFF;
+		color: #777;
+		z-index: 2;
+		border-bottom-color: #FFF;
+	}
+	.tabrow li.selected a {
+		color: #777;
+	}
+	.tabrow:before {
+		position: absolute;
+		content: " ";
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		border-bottom: 1px solid #AAA;
+		z-index: 1;
+	}
+	.tabrow li:before,
+	.tabrow li:after {
+		border: 1px solid #AAA;
+		position: absolute;
+		bottom: -1px;
+		width: 5px;
+		height: 5px;
+		content: " ";
+	}
+	.tabrow li:before {
+		left: -6px;
+		border-bottom-right-radius: 6px;
+		border-width: 0 1px 1px 0;
+		box-shadow: 2px 2px 0 #D1D1D1;
+	}
+	.tabrow li:after {
+		right: -6px;
+		border-bottom-left-radius: 6px;
+		border-width: 0 0 1px 1px;
+		box-shadow: -2px 2px 0 #D1D1D1;
+	}
+	.tabrow li.selected:before {
+		box-shadow: 2px 2px 0 #FFF;
+	}
+	.tabrow li.selected:after {
+		box-shadow: -2px 2px 0 #FFF;
+	}
+/**************************** <slut>  TOPMENU FRA CSS-TRICKS.COM *************************/
+
+/*#menu {
+    background: green;
+    width: 100%;
+    border-bottom: 1px solid #663300;
+    margin-bottom: 20px;
+}
+#menu table {
+    margin: auto;
+}
+#menu a {
+    font-size: 1.2em;
+    font-family: Trebuchet MS, Verdana;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+#menu a:hover {
+    color: green;
+    background: #fff;
+}*/
+
+#contentcolumn {
+    background: none;
+    width: 680px;
+    float: left;
+}
+#frontpagetable {
+    width: 90%;
+    margin-left: 5%;
+}
+#frontpagetable table {
+    width: 100%;
+}
+#frontpagetable td {
+    width: 50%;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+#frontpage h2 {
+    font-weight: bold;
+    font-size: 1.15em;
+    margin-bottom: 0px;
+    color: Green;
+}
+/* #d5ecbc, cde4b4, c1c9db, dabdc7, ffefc7 */
+#spacing {
+    width: 20px;
+    background: none;
+    float: left;
+}
+#rightcolumn {
+    background: none;
+    width: 180px;
+    float: left;
+    margin-top: 30px;
+    text-align: right;
+}
+#linkarea {
+    text-align: center;
+    padding-top: 20px;
+}
+#linkarea a {
+    font-size: 0.85em;
+}
+#footer {
+    width: 100%;
+    font-size: 0.89em;
+    border-top: 1px solid #663300;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    color: #b28452;
+}
+.subheading {
+    font-weight: bold;
+}
+.collapsed {
+    display: none;
+}
+.expanded {
+    display: block;
+}
+#quotetext {
+    width: 490px;
+    color: green;
+    background: #ffffd5; /*#ffefc7;*/
+    border: 1px dashed green;
+    line-height: 130%;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.5em;
+}
+.quotetext_author {
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: normal;
+}
+.hittext {
+    font-size: 0.89em;
+    text-align: right;
+    color: #b28452;
+}
+.history  {
+    font-size: 1em;
+}
+.history  span {
+    font-size: 1em;
+}
+
+.maildisplay {
+    display:inherit;
+    text-align: center;
+}
+#mailarea, #mailafriend {
+    text-align: center;
+    padding-top: 20px;
+    width: 360px;
+    margin: auto;
+}
+.mailinner {
+    width: 100%;
+    text-align: left;
+    background: #ffffd5;
+    border: 1px solid green;
+    padding: 10px;
+}
+#mailarea input, select, textarea, span {
+    font-family: Verdana;
+    font-size: 0.85em;
+}
+#mailafriend input, select, textarea, span {
+    font-family: Verdana;
+    font-size: 0.85em;
+}
+.mailhide {
+    display: none;
+    text-align: center;
+}
+.maillabels {
+    width: 130px;
+    display: block;
+    float: left;
+}
+.mailvalue {
+     width: 220px;
+}
+.ratingStar {
+    font-size: 0px;
+    width: 13px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+}
+.filledRatingStar {
+    background-image: url(images/FilledStar.png);
+}
+.emptyRatingStar {
+    background-image: url(images/EmptyStar.png);
+}
+.savedRatingStar {
+    background-image: url(images/SavedStar.png);
+}
+
+
+/*a:link    { text-decoration:underline; color:#000099 }
+a:visited { text-decoration:underline; color:#660066 }
+a:active  { text-decoration:underline; color:#cc0000 }
+a:hover   { text-decoration:underline; color:#003333 }*/
+
+a:link    { text-decoration:underline; color:green }
+a:visited { text-decoration:underline; color:green }
+a:active  { text-decoration:underline; color:green }
+a:hover   { text-decoration:none; color:#ffffff; background:green }
+
+a.top:link    { text-decoration:none;color:#333300 }
+a.top:visited { text-decoration:none;color:#333300 }
+a.top:active  { text-decoration:none;color:#333300 }
+a.top:hover   { text-decoration:none;color:#333300 }
+
+a.menulink:link    { text-decoration:none;color:#000099 }
+a.menulink:visited { text-decoration:none;color:#000099 }
+a.menulink:active  { text-decoration:none;color:#000099 }
+a.menulink:hover   { text-decoration:none;color:#000099 }
+
+a img { background: none; }
+
+/* 003366, 663300 */
+.heading			{ color:#663300; font-weight:bold; margin-top:20px; position:relative; left:0%; top:0%; background:#dfd8c6; width:100%; padding:2px; border:1px solid #cc9966 }
+.headingdate	{ font-size:0.9em; text-align:right; position:relative; left:0%; top:-15px }
+
+h1 {
+	font-size: 1.6em;
+	font-family: Calibri, Trebuchet MS;
+	color: green;
+	border-bottom: 1px solid #663300;
+	padding: 2px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 { font-size:1.4em; font-family:Calibri,'Trebuchet MS'; color:#663300 }
+h3 { font-size:1em; font-family:Verdana,'courier new',courier,monospace;color:#000000;font-weight:bold;text-transform:capitalize }
+
+ul, ol, dl { font-size:1em; line-height:1.4 }
+li, dt, dd { font-size:1em; text-decoration:none; }
+
+img	{ border-style: none; }
+
+.menu		{ position:relative; float:left; width:20%; margin-top:65px; }
+.indhold	{ position:relative; float:left; width:57%; left:20px; margin-top:20px; border:0px dotted black }
+
+.adbar		{ position:relative; width:160px; left:60px; margin-top:46px; border:0px solid green; font-family:verdana; font-size:20px; }
+.adfront	{ position:relative; width:100%; left:30px; margin-top:30px; border:0px solid blue; font-family:verdana; font-size:11px; }
+
+
+.kom     { color:#330099 }
+.kode    { font-family:'courier new',courier,monospace,serif;color:#336600;background:#f3f3f3;border-color:#000000;line-height:130%;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-style:solid;padding: 5px 5px 5px 5px }
+.tag     { color:#003366;font-size:1.1em;font-family:'courier new',courier,monospace }
+.preview { color:#003366;background:#ffffcc;border-color:#000000;margin-left:35px;margin-right:35px;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-style:solid;padding: 5px 5px 5px 5px }
+.preview_table { color:#003366;background:#ffffcc;border-color:#000000;margin-left:35px;margin-right:35px;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-style:solid;padding: 5px 5px 5px 5px }
+.preview_color { color:#003366 }
+
+.thyboe_udskriv	{ width:450px; font-size:1em; color:#003366; background:#fffaf0; border-color:#000000; line-height:130%;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-style:solid;padding: 8px 10px 10px 10px }
+
+.tbl_kontakt { font-size:1.4em }
+.navne  { font-size:1em;background-color:#f1f1f1;border:1px solid #000000 }
+
+.leftMenu	{ padding-bottom:8px; color:green }
+
+.form { font-size:1em; font-family:verdana; }
+.knap { font-size:1em; font-family:verdana; }
+

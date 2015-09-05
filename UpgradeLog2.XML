@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="bevs.dk">
+</Property><Property Name="Solution File" Value="C:\bevs\Dropbox\web\bevs.dk\bevs.dk.sln">
+</Property><Property Name="Date" Value="28. april 2012">
+</Property><Property Name="Time" Value="12:49">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="bevs.dk.sln" Description="File successfully backed up as C:\bevs\Dropbox\web\bevs.dk\Backup1\bevs.dk.sln">
+</Event><Event ErrorLevel="0" Project="" Source="bevs.dk.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="bevs.dk.sln" Description="Converted">
+</Event></UpgradeLog>

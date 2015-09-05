@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Lead Developer: Jakob Damsbo
+  Site: bevs.dk
+  Twitter: @jdamsbo
+  Location:
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, H5BP, Initializr
+  Software: MS Visual Studio Web Developer 2010 Express
+
